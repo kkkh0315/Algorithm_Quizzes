@@ -1,9 +1,11 @@
 # Baekjoon-Algorithm
 This repository contains my source files for the quizes in [Baekjoon Online Judge](https://www.acmicpc.net/).  
 Source files for quizes that are immoderately easy are not included.  
-##
+
+## What's included
 Algorithms included and used  
 `BFS` `DFS` `Brute Force` `Dynamic Programming` `Sort` `Recursion` `Greedy Algorithm`  
+  
 Data Structures included and used  
 `Stack` `Queue` `Tree`
 ## Profile Pages
