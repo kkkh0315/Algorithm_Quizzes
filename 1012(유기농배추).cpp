@@ -1,12 +1,16 @@
 #include <iostream>
 #include <queue>
 #include <string.h>
+
 using namespace std;
+
 queue<pair<int, int>> q;
+
 int arr[51][51];
 int dx[4] = { 0,-1,0,1 };
 int dy[4] = { -1,0,1,0 };
 int N, M;
+
 void BFS(int x,int y)
 {
     q.push(make_pair(x, y));
@@ -30,6 +34,7 @@ void BFS(int x,int y)
         }
     }
 }
+
 int main()
 {
     int K;
