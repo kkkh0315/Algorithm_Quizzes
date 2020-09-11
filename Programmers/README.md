@@ -3,7 +3,7 @@ This repository contains my source files for the quizes in [Programmers](https:/
 Source files for quizes that are immoderately easy are not included.  
 
 ## What's included
-Languages used
+Languages used  
 `Python`
 
 Algorithms included and used  
