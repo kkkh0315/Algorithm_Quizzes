@@ -1,6 +1,6 @@
 # Baekjoon-Algorithm
-This repository contains my source files for the quizes in [Baekjoon Online Judge](https://www.acmicpc.net/).  
-Source files for quizes that are immoderately easy are not included.  
+This repository contains my source files for the quizzes in [Baekjoon Online Judge](https://www.acmicpc.net/).  
+Source files for quizzes that are immoderately easy are not included.  
 Most source files are written in C language.
 
 ## What's included
