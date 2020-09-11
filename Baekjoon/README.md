@@ -4,6 +4,9 @@ Source files for quizes that are immoderately easy are not included.
 Most source files are written in C language.
 
 ## What's included
+Languages used  
+`C/C++`
+
 Algorithms included and used  
 `BFS` `DFS` `Brute Force` `Dynamic Programming` `Sort` `Recursion` `Greedy Algorithm`  
   
