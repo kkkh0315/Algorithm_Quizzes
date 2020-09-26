@@ -13,13 +13,13 @@
 5. 모든 최소 비용이 갱신될 때까지 3 ~ 4를 반복.  
   
   **구현 방법**
-  1. [인접 행렬을 이용한 선형 탐색](https://github.com/kkkh0315/Algorithm_Quizzes/blob/master/Algorithms/dijkstra/dijkstra.py)
+  1. [인접 행렬을 이용한 선형 탐색](https://github.com/kkkh0315/Algorithm_Quizzes/blob/master/Algorithms/dijkstra/dijkstra.py)  
     시간 복잡도: O(N^2)  
-    노드의 갯수가 많은데 간선은 적을 때 치명적으로 비효율적
-  2. 인접 리스트와 우선순위 큐를 이용한 방법
-    시간 복잡도: O(NLogN)
-    지금까지 발견된 가장 짧은 거리의 노드부터 탐색
-    불필요한 계산을 스킵할 수 있음
+    노드의 갯수가 많은데 간선은 적을 때 치명적으로 비효율적  
+  2. 인접 리스트와 우선순위 큐를 이용한 방법  
+    시간 복잡도: O(NLogN)  
+    지금까지 발견된 가장 짧은 거리의 노드부터 탐색  
+    불필요한 계산을 스킵할 수 있음  
     
 
 ## 예제
