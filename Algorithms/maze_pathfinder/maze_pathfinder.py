@@ -1,13 +1,13 @@
 # 미로 찾기 프로그램(그래프 탐색)
 # 입력: 미로 정보 g, 출발점 start, 도착점 end
-# 출력: 미로를 나가기 위한 이동 경로는 문자열, 나갈 수 없는 미로면 물음표("?")
+# 출력: 미로를 나가기 위한 이동 경로는 문자열, 나갈 수 없는 미로면 "Route not found." 출력
 
 def solve_maze(maze, start, end):
-    queue = []
-    routes = set()
+    queue = []                  # 현재까지 탐색된 루트를 문자열로 큐에 저장.
+    visited = set()             # 집합 자료형. 방문한 꼭지점을 저장. 중복 방지.
 
     queue.append(start)
-    routes.add(start)
+    visited.add(start)
 
     while queue:
         route = queue.pop(0)
@@ -17,6 +17,7 @@ def solve_maze(maze, start, end):
         for p in maze[last_in_route]:
             if p not in routes:
                 queue.append(route + p)
+                visited.add(p)
     return "Route not found."
 
 
