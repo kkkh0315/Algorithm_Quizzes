@@ -20,7 +20,7 @@ Be sure to record from which node the adjacent nodes have been scrutinized.
 5. Trace back from the end node to the first node based on the record you made in every 2.  
 
 **g(n): 시작 노드에서 *n*까지의 비용.**  
-**h(n): 휴리스틱 함수에 의해 계산된 *n*에서 끝 노드까지의 추정 거리.**  
+**h(n): 휴리스틱 함수에 의해 계산된 *n*에서 끝 노드까지의 추정 비용.**  
 1. 시작 노드와 끝 노드를 결정한다.  
 2. 아직 방문하지 않았고 해당 노드로 움직일 수 있는 인접 노드들의 g, h, f값을 계산한다.  
 이 때, 인접 노드의 부모 노드를 기록해두어야한다.
