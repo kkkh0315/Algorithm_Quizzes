@@ -20,6 +20,7 @@ Be sure to record from which node the adjacent nodes have been scrutinized.
 
 Print and return the lowest cost and the path of that case when moving from 1 to 6.  
 *e.g. The lowest cost when moving from 1 to 3 is 3 when traveling through 4 and 5.*  
+<br>
 <img src="https://user-images.githubusercontent.com/60923302/94100688-2ab8d980-fe69-11ea-8bdb-2e9f8b113520.png" width="500" height="500">
 
   **Implementation**  
@@ -27,10 +28,18 @@ Print and return the lowest cost and the path of that case when moving from 1 to
    
 ## Example 2
 Print the shortest path from the departure to the destination in the maze.  
+<br>
 <img src="https://user-images.githubusercontent.com/60923302/95332404-56ff3c00-08e6-11eb-8b25-f9fa0dc5b55e.png" width="500" height="562.5">
 
 **Implementation**  
 [A-Star algorithm for rectangular-shaped maze](https://github.com/kkkh0315/Algorithms/blob/master/Studied_Algorithm_Lists/A%20Star%20Algorithm/astar_maze.py)
+
+<br>
+<br>
+<br>
+<br>
+
+
 
 # 에이스타 알고리즘
 에이스타 알고리즘은 한 지점에서 다른 한 지점으로의 최단 거리를 찾아주는 알고리즘입니다.  
@@ -54,6 +63,7 @@ f(n) = g(n) + h(n)
 
 1번 지점에서 6번 지점으로 갈 때의 최소 비용과 그 때의 경로를 계산하여 각각 출력하고 반환하시오.  
 *(예시) 1번에서 3번으로 가는 최소 비용은 4번과 5번을 거쳤을 때의 3이 된다.*  
+<br>
 <img src="https://user-images.githubusercontent.com/60923302/94100688-2ab8d980-fe69-11ea-8bdb-2e9f8b113520.png" width="500" height="500">
 
   **구현 방법**  
@@ -61,6 +71,7 @@ f(n) = g(n) + h(n)
    
 ## 예제 2 
 미로 안의 출발점에서 도착점까지의 최단 경로를 출력하시오.  
+<br>
 <img src="https://user-images.githubusercontent.com/60923302/95332404-56ff3c00-08e6-11eb-8b25-f9fa0dc5b55e.png" width="500" height="562.5">
 
 **구현 방법**  
