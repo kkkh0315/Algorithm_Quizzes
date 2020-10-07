@@ -16,6 +16,7 @@ Be sure to record from which node the adjacent nodes have been scrutinized.
 3. If any adjacent node has a bigger g value compared to the newly calculated one, update.    
 4. Repeat 2~3 until you reach the end node.   
 5. Trace back from the end node to the first node based on the record you made in every 2.  
+
 g(n): 시작 노드에서 *n*까지의 비용.  
 h(n): 휴리스틱 함수에 의해 계산된 *n*에서 끝 노드까지의 추정 거리.  
 1. 시작 노드와 끝 노드를 결정한다.  
@@ -27,12 +28,12 @@ h(n): 휴리스틱 함수에 의해 계산된 *n*에서 끝 노드까지의 추�
 
 ## Example (예제)
 
-Print and return the lowest cost and the path of that case when moving from 1 to 6.
-*e.g. The lowest cost when moving from 1 to 3 is 3 when traveling through 4 and 5.
+Print and return the lowest cost and the path of that case when moving from 1 to 6.  
+*e.g. The lowest cost when moving from 1 to 3 is 3 when traveling through 4 and 5.*  
 1번 지점에서 6번 지점으로 갈 때의 최소 비용과 그 때의 경로를 계산하여 각각 출력하고 반환하시오.  
-*(예시) 1번에서 3번으로 가는 최소 비용은 4번과 5번을 거쳤을 때의 3이 된다.*
+*(예시) 1번에서 3번으로 가는 최소 비용은 4번과 5번을 거쳤을 때의 3이 된다.*  
 <img src="https://user-images.githubusercontent.com/60923302/94100688-2ab8d980-fe69-11ea-8bdb-2e9f8b113520.png" width="500" height="500">
 
-  **Implementation (구현 방법)**
+  **Implementation (구현 방법)**  
    [A-Star algorithm for undirected weighted graph](https://github.com/kkkh0315/Algorithms/blob/master/Studied_Algorithm_Lists/A%20Star%20Algorithm/astar.py)  
-   [A-Star algorithm for square shaped map]
+   A-Star algorithm for square shaped map
