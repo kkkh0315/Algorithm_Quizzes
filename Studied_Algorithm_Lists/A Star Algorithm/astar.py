@@ -1,15 +1,5 @@
 import heapq
 
-# Graph info in adjacency list type {departing node: {destination node: cost}}
-distance_map = {
-    1: {2: 2, 3: 5, 4: 1},
-    2: {1: 2, 3: 3, 4: 2},
-    3: {1: 5, 2: 3, 4: 3, 5: 1, 6: 5},
-    4: {1: 1, 2: 2, 3: 3, 5: 1},
-    5: {3: 1, 4: 1, 6: 2},
-    6: {3: 5, 5: 2}
-}
-
 
 class Node:
     def __init__(self, name=None, parent=None):
@@ -77,4 +67,16 @@ def astar(map_info, start, end):
                 heapq.heappush(open_list, child_node)
 
 
-astar(distance_map, 1, 6))
+if __name__ = '__main__':
+
+    # Graph info in adjacency list type {departing node: {destination node: cost}}
+    distance_map = {
+        1: {2: 2, 3: 5, 4: 1},
+        2: {1: 2, 3: 3, 4: 2},
+        3: {1: 5, 2: 3, 4: 3, 5: 1, 6: 5},
+        4: {1: 1, 2: 2, 3: 3, 5: 1},
+        5: {3: 1, 4: 1, 6: 2},
+        6: {3: 5, 5: 2}
+    }
+
+    astar(distance_map, 1, 6))
