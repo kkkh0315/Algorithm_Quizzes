@@ -7,7 +7,9 @@ Therefore, despite of its high space complexity, it's considered as one of the f
 따라서, 공간복잡도는 다소 높아도 가장 빠르고 합리적인 경로 탐색 알고리즘 중 하나입니다.  
 
 ## How it works (기본 개념)  
-**f(n) = g(n) + h(n)**  
+~~~~
+f(n) = g(n) + h(n)
+~~~~
 g(n): The cost of the path from the start node to *n*.  
 h(n): The result of a heuristic function that estimates the cost of the cheapest path from *n* to the end node.  
 1. Decide the start node and the end node.  
