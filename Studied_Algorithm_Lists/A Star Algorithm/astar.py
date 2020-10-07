@@ -67,7 +67,7 @@ def astar(map_info, start, end):
             child_node.f = child_node.g + child_node.h
 
             for open_node in open_list:
-                if child_node == open_node and child_node.f > open_node.f:
+                if child_node == open_node and child_node.g > open_node.g:
                     continue
 
             heapq.heappush(open_list, child_node)
