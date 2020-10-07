@@ -27,4 +27,5 @@
 
 1번 지점에서 다른 각 지점들로 갈 때의 각각의 최소 비용을 계산하여 배열에 저장해 반환하시오.  
 *(예시) 1번에서 3번으로 가는 최소 비용은 4번과 5번을 거쳤을 때의 3이 된다.*
+<br>
 <img src="https://user-images.githubusercontent.com/60923302/94100688-2ab8d980-fe69-11ea-8bdb-2e9f8b113520.png" width="500" height="500">
