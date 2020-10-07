@@ -28,7 +28,7 @@ Be sure to record from which node the adjacent nodes have been scrutinized.
 4. 끝 노드에 도달할 때까지 2~3을 반복한다.  
 5. 2에서 저장한 부모 노드에 대한 기록을 바탕으로 끝 노드에서 시작 노드로 거슬러 올라가며 최적 경로를 찾아낸다.  
 
-## Example (예제)
+## Example 1 (예제 1)
 
 Print and return the lowest cost and the path of that case when moving from 1 to 6.  
 *e.g. The lowest cost when moving from 1 to 3 is 3 when traveling through 4 and 5.*  
@@ -38,4 +38,11 @@ Print and return the lowest cost and the path of that case when moving from 1 to
 
   **Implementation (구현 방법)**  
    [A-Star algorithm for undirected weighted graph](https://github.com/kkkh0315/Algorithms/blob/master/Studied_Algorithm_Lists/A%20Star%20Algorithm/astar.py)  
-   A-Star algorithm for square shaped map
+   
+## Example 2 (예제 2)
+Print the shortest path from the departure to the destination in the maze.  
+미로 안의 출발점에서 도착점까지의 최단 경로를 출력하시오.  
+<img src="https://user-images.githubusercontent.com/60923302/95332223-13a4cd80-08e6-11eb-98ac-7dae7e5d4bb0.png" width="500" height="500">
+
+**Implementation (구현 방법)**  
+[A-Star algorithm for rectangular-shaped maze](https://user-images.githubusercontent.com/60923302/95332404-56ff3c00-08e6-11eb-8b25-f9fa0dc5b55e.png)
