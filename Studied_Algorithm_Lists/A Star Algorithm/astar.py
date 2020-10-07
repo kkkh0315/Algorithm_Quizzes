@@ -67,10 +67,14 @@ def astar(map_info, start, end):
             child_node.f = child_node.g + child_node.h
 
             for open_node in open_list:
-                if child_node == open_node and child_node.g > open_node.g:
-                    continue
-
-            heapq.heappush(open_list, child_node)
+                if child_node == open_node:
+                    if child_node.g <= open_node.g:
+                        open_list.remove(open_node)
+                        heapq.heappush(open_list, child_node)
+                        break
+                    break
+            else:
+                heapq.heappush(open_list, child_node)
 
 
 astar(distance_map, 1, 6))
