@@ -42,7 +42,7 @@ Print and return the lowest cost and the path of that case when moving from 1 to
 ## Example 2 (예제 2)
 Print the shortest path from the departure to the destination in the maze.  
 미로 안의 출발점에서 도착점까지의 최단 경로를 출력하시오.  
-<img src="https://user-images.githubusercontent.com/60923302/95332404-56ff3c00-08e6-11eb-8b25-f9fa0dc5b55e.png" width="500" height="500">
+<img src="https://user-images.githubusercontent.com/60923302/95332404-56ff3c00-08e6-11eb-8b25-f9fa0dc5b55e.png" width="500" height="562.5">
 
 **Implementation (구현 방법)**  
 [A-Star algorithm for rectangular-shaped maze](https://github.com/kkkh0315/Algorithms/blob/master/Studied_Algorithm_Lists/A%20Star%20Algorithm/astar_maze.py)
