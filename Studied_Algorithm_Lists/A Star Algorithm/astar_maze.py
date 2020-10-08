@@ -52,7 +52,7 @@ def astar(maze_info, start, end):
 
         # Create children list
         children = []
-        for offset in [(0, -1), (0, 1), (-1, 0), (1, 0)]:
+        for offset in [(0, -1), (0, 1), (-1, 0), (1, 0), (1, -1), (-1, -1), (-1, 1), (1, 1)]:
             new_pos = (cur_node.position[0] + offset[0], cur_node.position[1] + offset[1])
             if new_pos[0] > (len(maze_info) - 1) or new_pos[0] < 0:
                 continue
