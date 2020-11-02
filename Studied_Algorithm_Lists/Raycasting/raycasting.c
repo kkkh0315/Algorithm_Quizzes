@@ -1,21 +1,11 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   exercise.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: kyoukim <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/26 16:06:00 by kyoukim           #+#    #+#             */
-/*   Updated: 2020/11/02 16:11:24 by kyoukim          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "minilibx/mlx.h"
 #include "incs/cub3d.h"
 #include "incs/key_macos.h"
-#include <stdio.h>
+
+// You can customize your map changing the MAP_WID and MAP_HEI values and the map array.
 #define MAP_WID 10
 #define MAP_HEI 8
+
 
 int map[MAP_HEI][MAP_WID] = {
 	{1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
